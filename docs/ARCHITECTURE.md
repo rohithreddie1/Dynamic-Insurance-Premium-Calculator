@@ -1,21 +1,30 @@
 # Dynamic Insurance Premium Calculator - Architecture
 
 ## System Overview
+
+**Core Components**
+
+---
+
+### Figure 1: System Architecture Flow
 <div align="center">
-  <img src="https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/main/docs/architecture.png" width="550" style="border: 1px solid #eee; margin: 20px 0;">
-  <p><em>Figure 1: System Architecture Flow</em></p>
+  <!-- Use either option below -->
+  
+  <!-- Option 1: Relative path (image in your repo) -->
+  <img src="./architecture.png" width="550" alt="System Architecture Diagram" style="border: 1px solid #eee; margin: 20px 0;">
+
+  <!-- Option 2: Absolute path (if hosted elsewhere) -->
+  <!-- <img src="https://example.com/your-image.png" width="550"> -->
 </div>
 
-## Core Components
+## Implementation Notes
 
-### 1. Data Collection Module
-```python
-class DataCollector:
-    def __init__(self):
-        self.valid_regions = ['southwest', 'southeast', 'northwest', 'northeast']
-    
-    def validate(self, data: dict) -> bool:
-        """Ensures all inputs meet requirements"""
-        assert 18 <= data['age'] <= 100
-        assert data['smoker'] in ['yes', 'no']
-        assert data['region'] in self.valid_regions
+1. **Image Requirements**:
+   - Format: PNG or SVG
+   - Recommended size: 1200×800px
+   - Save as `/docs/architecture.png`
+
+2. **To Add Your Diagram**:
+```bash
+# From project root
+wget https://your-image-url.com/architecture.png -O docs/architecture.png
