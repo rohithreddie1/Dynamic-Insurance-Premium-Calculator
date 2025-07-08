@@ -3,7 +3,7 @@
 ## System Overview
 
 <p align="center">
-  <img src="https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png" alt="Architecture Diagram" width="600">
+  <img src="https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png" alt="Architecture Diagram" width="300">
 </p>
 
 ### Core Components
