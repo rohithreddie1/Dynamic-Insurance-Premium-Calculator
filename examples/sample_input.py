@@ -1,0 +1,1 @@
+python -c 'import json; data = {"age":37,"sex":"male","bmi":46,"children":1,"smoker":"yes","region":"northeast"}; print(json.dumps(data, indent=2))' > sample_input.json
