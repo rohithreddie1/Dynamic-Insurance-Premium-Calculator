@@ -1,7 +1,10 @@
 # Dynamic Insurance Premium Calculator - Architecture
 
 ## System Overview
-![Architecture Diagram](https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png) 
+
+<p align="center">
+  <img src="https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png" alt="Architecture Diagram" width="600">
+</p>
 
 ### Core Components
 
@@ -11,7 +14,7 @@
   - Risk factors (BMI, smoking status)
   - Coverage requirements
 - **Validation**:
-  - Range checks (e.g., age 18-100)
+  - Range checks (e.g., age 18–100)
   - Categorical value validation
 
 #### 2. Risk Assessment Engine
