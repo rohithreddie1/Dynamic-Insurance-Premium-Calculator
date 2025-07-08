@@ -14,7 +14,7 @@
   <img src="./architecture.png" width="550" alt="System Architecture Diagram" style="border: 1px solid #eee; margin: 20px 0;">
 
   <!-- Option 2: Absolute path (if hosted elsewhere) -->
-  <!-- <img src="https://example.com/your-image.png" width="550"> -->
+  <!-- <img src="[https://example.com/your-image.png](https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png)" width="550"> -->
 </div>
 
 ## Implementation Notes
