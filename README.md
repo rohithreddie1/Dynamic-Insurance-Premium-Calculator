@@ -1,6 +1,5 @@
 # Dynamic Insurance Premium Calculator
 
-![Insurance Calculator Demo](examples/sample_output.png)
 
 A system that calculates personalized insurance premiums using AI/ML models with real-time market adjustments.
 
