@@ -1,23 +1,21 @@
 # Dynamic Insurance Premium Calculator - Architecture
 
 ## System Overview
-![Architecture Diagram](https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/885edb6b74cdfc390902847f0c81f9d48583c070/docs/Architecture%20image.png)
+<div align="center">
+  <img src="https://github.com/rohithreddie1/Dynamic-Insurance-Premium-Calculator/blob/main/docs/architecture.png" width="550" style="border: 1px solid #eee; margin: 20px 0;">
+  <p><em>Figure 1: System Architecture Flow</em></p>
+</div>
 
-### Core Components
+## Core Components
 
-#### 1. Data Collection Module
-- **Input Types**:
-  - Demographic data (age, gender, location)
-  - Risk factors (BMI, smoking status)
-  - Coverage requirements
-- **Validation**:
-  - Range checks (e.g., age 18-100)
-  - Categorical value validation
-
-#### 2. Risk Assessment Engine
+### 1. Data Collection Module
 ```python
-class RiskModel:
-    def assess_risk(self, applicant_data):
-        # 1. Preprocess input
-        # 2. Apply ML model
-        # 3. Generate SHAP explanations
+class DataCollector:
+    def __init__(self):
+        self.valid_regions = ['southwest', 'southeast', 'northwest', 'northeast']
+    
+    def validate(self, data: dict) -> bool:
+        """Ensures all inputs meet requirements"""
+        assert 18 <= data['age'] <= 100
+        assert data['smoker'] in ['yes', 'no']
+        assert data['region'] in self.valid_regions
